@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0b0b0b;
+  color: #f5f5f5;
+}
+
+.hero {
+  height: 100vh;
+  background: url("images/hero.jpg") center/cover no-repeat;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.65);
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #c9a24d, #f3d98b);
+  color: #000;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #c9a24d;
+  color: #c9a24d;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-grid,
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #141414;
+  padding: 30px;
+  border: 1px solid #222;
+  border-radius: 12px;
+}
+
+.why ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  background: #050505;
+  padding: 20px;
+  font-size: 14px;
+}
